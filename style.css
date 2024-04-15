@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+    
+}
+
+h1{
+    font-size:56px ;
+    line-height: 64px;
+    color:rgb(0, 120, 0) ;
+    padding: 2px 0;
+
+}
+
+h2{
+    font-size:51px ;
+    line-height: 54px;
+    color:#222;
+    padding: 2px 0;
+    
+
+
+}
+p{
+    font-size: 20px;
+    padding: 10px 1px;
+   
+  
+}
+
+h6{
+    font-weight:700;
+    font-size: 12px;
+
+
+}
+
+h4{
+    font-size: 30px;
+    padding: 2px 0;
+   
+
+}
+p{
+    font-size: 25pxpx;
+    color: rgb(68, 68, 68);
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    color: aliceblue;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0 ;
+    height: 60px;
+    
+    
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    
+}
+#nav-bar li{
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+    
+}
+#nav-bar li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 60px;
+    transition: 0.5s ease;
+
+}
+#nav-bar li a:hover,
+#nav-bar li a:active{
+    color: rgb(0, 75, 251);
+    text-decoration: underline;
+}
+
+#hero{
+    background-image: url("images/hero.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 8% right 0%;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#hero button{
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color:transparent ;
+    border-width: 2pxpx;
+    border-color: rgb(21, 21, 21);
+    border-radius:10px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+    transition: 0.5s;
+}
+#hero button:hover{
+    box-shadow: 1px 1px 2px 1px;
+
+
+}
+
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+
+#feature .fe-box{
+    width: 180px;
+text-align: center;
+padding: 25px 15px;
+border: 1px solid #c3d2c5;
+box-shadow: 10px 10px 54px rgba(70,62,221,0.06);
+
+border-radius: 4px;
+margin: 15px 0px;
+transition: 0.5s;
+
+
+}
+#feature .fe-box:hover{
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.06);
+
+
+}
+#feature .fe-box img{
+    width: 100%;
+    
+    margin-bottom: 10px;
+    
+
+}
+#feature .fe-box h6{
+    padding: 9px 9px 9px 9px;
+    display: inline-block;
+    
+
+    line-height: 1px;
+    border-radius: 4px;
+    color: rgb(88, 88, 88);
+    background-color: rgb(145, 187, 211);
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+#feature .fe-box:nth-of-type(2) h6 {
+    background-color: rgb(246, 246, 82);
+}
+#feature .fe-box:nth-of-type(3) h6 {
+    background-color: rgb(250, 148, 148);
+}
+#feature .fe-box:nth-of-type(4) h6{
+    background-color: rgb(161, 161, 255);
+}
+#feature .fe-box:nth-of-type(5) h6{
+    background-color: palevioletred;
+    
+}
+
+#product1{
+   text-align: center;
+
+}
+#product1 .pro{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 34px rgba(0, 0, 0, 0.3);
+
+    border: 0px solid rgb(15, 15, 15);
+    cursor:pointer;
+    margin: 15px 0;
+    transition: 0.5s;
+    position: relative;
+}
+#product1 .pro:hover{
+    box-shadow: 10px 10px 34px rgba(0, 0, 0, 0.6);
+
+
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .description{
+    text-align: start;
+    padding: 10px 0;
+    width: 100%;
+    
+
+}
+#product1 .pro .description span{
+    color:rgb(126, 126, 128) ;
+    font-size: 12px;
+}
+#product1 .pro .description h5{
+
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+#product1 .pro .description h4{
+    
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(124, 124, 124);
+    
+}
+#product1 .pro .description i{
+    font-size:12px;
+    color: rgb(255, 213, 0);
+     
+}
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-weight: 500;
+    color: rgb(0, 0, 235);
+    font-size: 20px;
+    position:absolute;
+    bottom: 20px;
+    right: 10px;
+
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
